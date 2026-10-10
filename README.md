@@ -1,158 +1,101 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/hero-reduced.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero/hero-light.svg">
-    <img src="assets/hero/hero-motion.svg" alt="MorphUI — animated project plate showing capital &rarr; allocate &rarr; mark &rarr; settle. Motion depicts this project's real state transition." width="100%">
-  </picture>
-</p>
+# morphui
 
-# MorphUI
+> Morphing UI systems for faster product design and interface iteration. Built in Prisma, Zod. 18 routes (/about, /api/morph, /contact); 1 entry point (index.html). TESTED: 1 test file.
 
-**Interactive MVP for an **AI interface layer** that reshapes SaaS dashboards from **role**, **workflow**, **layout preference**, and **natural language** intent. The demo engine reorders modules, hides deprioritized tiles, highlights key actions, and generates a **personalized interface explanation****
+The implementation summary below is intentionally conservative. Claims from NORTHSTAR are not presented as shipped functionality.
 
-## What is actually here
+- [GitHub repository](https://github.com/M4G3LL4N0/morphui)
+- [Project site](https://morphui.noaerth.com/)
 
-| | |
-| --- | --- |
-| Language | TypeScript, JavaScript |
-| Build | `package.json` |
-| Tests | 1 test files |
-| CI | none present |
-| Entry points | `app/page.tsx` |
-| Category | Finance |
+<!-- NOAERTH_IMAGE_SLOT: morphui/hero -->
 
-## Why this README looks like this
+## What it is
 
-This file was generated from the repository's own source tree rather than
-written by hand. Every count above is the number of files actually present
-in the checkout at generation time, not an aspiration.
+Morphing UI systems for faster product design and interface iteration. Built in Prisma, Zod. 18 routes (/about, /api/morph, /contact); 1 entry point (index.html). TESTED: 1 test file.
 
-An earlier version of this file was framework generator output, which
-describes the command used to create a directory rather than the system
-inside it. It was replaced for that reason.
+This repository is part of the NOAERTH venture ecosystem. The current public-facing evidence identifies it as a early-stage project rather than a production-ready system.
 
-Documentation surface: 4 project documents in the repository.
+## Capabilities
 
-## How it behaves
+### Available evidence
 
-Capital enters, allocates across positions, and settles into an outcome.
+- The repository contains the implementation and documentation associated with the project description above.
+- The technology signals currently visible in the local project are listed in the technical notes below.
+- No additional capability is asserted here without a direct implementation reference.
 
-Architecture: data flow.
+### Experimental or planned
 
-## Status
+Roadmap intent is deliberately not represented as shipped functionality. Review NORTHSTAR and source implementation together before adding future-facing claims.
 
-Source of truth: the local checkout. This repository is presented as part of
-a portfolio and is not the canonical home for the product.
+<!-- NOAERTH_IMAGE_SLOT: morphui/workflow -->
 
----
+## How it works
 
-Part of the DUNG30N5 x NOAERTH portfolio. Repository:
-[`M4G3LL4N0/morphui`](https://github.com/M4G3LL4N0/morphui).
+The current evidence supports a repository-level application or tool workflow, but does not provide enough verified detail in the Part 1 record to publish a component-level architecture diagram. The architecture slot is reserved for a deterministic diagram after the source flow is reviewed.
 
-<!-- TRILLIONX:presentation:begin -->
+<!-- NOAERTH_IMAGE_SLOT: morphui/architecture -->
 
-### Animated surfaces
+## Quick start
 
-Generated from this repository's own source tree: every count, route and module below was measured, not written by hand.
+### Prerequisites
 
-#### Identity
+- A runtime suitable for `Node.js`.
+- A clean checkout of this repository.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/hero-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/hero-light.svg">
-  <img alt="Identity diagram for morphui" src="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/hero-motion.svg">
-</picture>
+### Install
 
-#### Entry points
+```sh
+pnpm install
+```
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/terminal-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/terminal-light.svg">
-  <img alt="Entry points diagram for morphui" src="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/terminal-motion.svg">
-</picture>
+### Run locally
 
-#### Modules
+```sh
+pnpm run dev
+```
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/architecture-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/architecture-light.svg">
-  <img alt="Modules diagram for morphui" src="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/architecture-motion.svg">
-</picture>
+### Build
 
-#### Routes
+```sh
+pnpm run build
+```
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/data_flow-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/data_flow-light.svg">
-  <img alt="Routes diagram for morphui" src="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/data_flow-motion.svg">
-</picture>
+### Test
 
-#### Primitives
+```sh
+pnpm run test
+```
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/state_machine-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/state_machine-light.svg">
-  <img alt="Primitives diagram for morphui" src="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/state_machine-motion.svg">
-</picture>
+Commands are included only when they were detected in the repository manifest; verify environment-specific requirements before deployment.
 
-#### Composition
+## Technical notes
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/component_map-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/component_map-light.svg">
-  <img alt="Composition diagram for morphui" src="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/component_map-motion.svg">
-</picture>
+- **Primary language:** JavaScript/TypeScript
+- **Runtime:** Node.js
+- **Package manager:** pnpm
+- **Framework and integration signals:** Go, Next.js, Prisma, React, Rust, Tailwind, Zod
+- **Entry-point signals:** package.json
+- **Test evidence:** TEST_PLAN.md
+- **Repository topics:** `typescript`, `app`, `components`, `dung30n5`, `next-js`, `pipeline`, `prisma`, `react`
 
-#### Build and tests
+## Status and roadmap
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/build-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/build-light.svg">
-  <img alt="Build and tests diagram for morphui" src="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/build-motion.svg">
-</picture>
+**Current status:** Early-stage project.
 
-#### Workflow
+**Current:** The repository and its documented implementation are available for inspection.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/workflow-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/workflow-light.svg">
-  <img alt="Workflow diagram for morphui" src="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/workflow-motion.svg">
-</picture>
+**Next:** Reconcile the README, source behavior, and safe public product language before adding deeper examples or diagrams.
 
-#### Domain
+**Future:** Product direction is maintained separately and must not be read as a shipped feature list.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/domain-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/domain-light.svg">
-  <img alt="Domain diagram for morphui" src="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/domain-motion.svg">
-</picture>
+## Contributing and license
 
-#### Identity object
+Follow the repository's existing contribution and licensing files where present. This README does not invent an open-source license or contribution policy.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/footer-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/footer-light.svg">
-  <img alt="Identity object diagram for morphui" src="https://raw.githubusercontent.com/M4G3LL4N0/morphui/main/.github-art/surfaces/footer-motion.svg">
-</picture>
+## Visual documentation
 
-<!-- TRILLIONX:presentation:end -->
+Image slots are intentionally comments until authentic screenshots, deterministic diagrams, or approved conceptual visuals exist. No absent image file is referenced.
 
-<!-- TRILLIONX:evidence:begin -->
+## NOAERTH
 
-## What is measurable here
-
-Generated by `.github-art` from the source tree at publish time.
-
-| Signal | Value |
-| --- | --- |
-| HTTP routes | 18 |
-| Entry points | 1 |
-| Module roots | 4 |
-| Test files | 1 |
-| CI workflows | 0 |
-| Distinctive stack | Prisma, Zod |
-| Status | TESTED |
-| Evidence confidence | E3 |
-| Animated surfaces | 10 |
-
-<!-- TRILLIONX:evidence:end -->
+[NOAERTH](https://www.noaerth.com) is the venture ecosystem associated with this project.
